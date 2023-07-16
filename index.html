@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="banner">
+        <h1>LIBROS</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="titles">
+        <h2>Contamos con un amplio catálogo</h2>
+
+        <div class="filter">
+          <label for="genre-filter">Filtar por género</label>
+          <select name="genre-filter" id="genre-filter">
+            <option value="0">Misterio</option>
+            <option value="1">Aventura</option>
+            <option value="2">Romance</option>
+            <option value="3">Ficcion</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="books-main-container">
+        <div class="finded-books">
+          <h3><span>8</span> Libros disponibles</h3>
+          <div id="finded-book-container" class="finded-book-container"></div>
+        </div>
+
+        <div class="reading-list">
+          <h3>Lista de lectura</h3>
+          <div id="reading-list-container" class="reading-list-container">
+           
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Hecho con amor por Danny Meirno</p>
+    </footer>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
