@@ -94,7 +94,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.finded-book-container,
+.available-book-container,
 .reading-list-container {
   padding: 2rem 0;
   display: flex;
@@ -111,7 +111,9 @@ body {
 .cover img {
   border-radius: 10px;
 }
-
+.hidden{
+    display: none;
+}
 .book {
   position: relative;
   border-radius: 10px;
@@ -159,7 +161,7 @@ body {
   gap: 0.3rem;
 }
 
-.book-card-info h5 span {
+.book-card-info h5 span, .book-card-info h6 span{
   font-weight: 500;
 }
 .book-card-info p {
